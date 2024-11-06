@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    color: black;
+    background-color: aliceblue;
+}
+
+.montserrat-monty {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.karla-karlusha {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.istok-web-regular {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.istok-web-bold {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.istok-web-regular-italic {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.istok-web-bold-italic {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.page_header{
+    min-height: 900px;
+    max-height: 1024px;
+    background-image: url("images/back_home.jfif");
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 70px;
+    padding-top: 40px;
+    padding-right: 50px;
+}
+
+.logo{
+    display: block;
+    margin-top: 10px;
+}
+
+.navigation_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0;
+    list-style: none;
+}
+
+.navigation_title_item{
+    display: flex;
+    min-width: 200px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.container_page_header{
+    display: flex;
+    padding-top: 25px;
+    gap: 25px;
+    padding-left: 300px;
+    align-content: center;
+    justify-content: center;
+}
+
+.text_header_list{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+.text_header{
+    margin: 0;
+    padding: 0;
+    padding-top: 190px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 33px;
+    justify-content: left;
+}
+
+.subtext_header{
+    margin: 0;
+    padding: 0;
+    padding-top: 190px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    font-family:"Istok Web", sans-serif;
+    list-style: none;
+}
+
+.header_iphone_list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.iphone_img{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+}
+
+.cable_img{
+    margin-top: -200px;
+    margin-right: 50px;
+    border: 1px solid #ccc;
+}
+
